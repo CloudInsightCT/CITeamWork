@@ -1,0 +1,48 @@
+
+.index .article {
+	padding: 0 0 45px;
+}
+
+.index .article .point {
+	max-width: 200px;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #595757;
+	padding: 5px 53px;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.index .article .points {
+	max-width: 200px;
+	margin: 0 auto;
+	font-size: 16px;
+//	color: #595757;
+	padding: 5px 53px;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.index .article .points p{
+	text-align: center;
+	margin: 5px 8px;
+	
+}
+.index .article .point p{
+	
+	text-align: center;
+	margin: 5px 8px;
+	
+}
+.index .article .point img{
+	
+	text-align: center;
+}
+.index .article .points:hover,
+.index .article .points:active {
+	background-color: #efefef;
+	text-decoration: none;
+}
+
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="cloudinsight"
+  id="myeclipse.1457329954674"
+  context-root="/cloudinsight"
+  j2ee-spec="5.0"
+  archive="cloudinsight.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
