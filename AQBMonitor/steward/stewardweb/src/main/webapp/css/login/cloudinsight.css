@@ -1,0 +1,153 @@
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.popover,
+.daterangepicker .calendar th,
+.daterangepicker .calendar td {
+    font-family: Microsoft YaHei !important;
+}
+
+/********login*******/
+
+.cover-image {
+    background-image: url('../../images/login/login-top.jpg');
+    height: 840px;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.cover-image-trans {
+    background-image: url('../../images/login/login-box.png');
+    height: 840px;
+    width: 100%;
+    background-position: 50% 50%;
+    position: relative;
+}
+.hr-line {
+    height: 5px;
+    background-color: #a5aab0;
+}
+.footer {
+    height: 150px;
+    background-color: #004d8f
+}
+.footer-line {
+    margin: 0 auto;
+    color: white;
+    line-height: 50px;
+    display: table;
+}
+.fixed-login-form {
+    margin: 0 auto;
+    padding-top: 300px;
+    width: 440px;
+    padding-left: 80px;
+}
+.fixed-login-form label {
+    font-size: 16px;
+    padding-top: 5px !important;
+}
+.login-confirm {
+    font-size: 16px;
+}
+.login-reset {
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+/***********register**********/
+
+.navbar-fixed-top {
+    margin-top: 40px;
+    position: absolute;
+    background-color: rgba(34, 34, 34, 0.18);
+    border-color: rgba(34, 34, 34, 0);
+}
+.fixed-container {}
+.navbar-inverse .navbar-nav > li > a {
+    color: #BDBDBD;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .open > a {
+    color: #fff;
+    background-color: #014495;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #014495;
+}
+.header-image {
+    background-image: url('../../images/login/register-header.png');
+    height: 300px;
+    width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-centered{
+    margin: 0 auto;
+    float: none;
+    display: table;
+}
+.header-image-inner{
+    top: 150px;
+    position: relative;
+}
+.header-image-inner button{
+    height: 34px;
+}
+.header-image-inner .control-label{
+    line-height: 34px;
+    color: gray;
+    font-size: 16px;
+}
+.margin-fixed{
+    margin-top: 20px;
+}
+.register-form{
+    background-color: #dcdcdc;
+}
+.outer-box{
+    margin: 90px;
+    border-radius: 15px;
+    border: 2px solid #ddd;
+    box-shadow: 0px 0px 15px #ABA5A5;
+    box-sizing: border-box;
+    background-color: white;
+}
+.register-form > .container{
+    width: 900px;
+}
+.outer-box > .container{
+    padding: 20px 150px;
+    display: table-cell;
+}
+.formr-header{
+    font-size: 28px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    color: #004d8f;
+    display: table;
+}
+.outer-box input.form-control{
+    background-color: #eaeaea;
+}
+.outer-box input,button{
+    height: 35px;
+}

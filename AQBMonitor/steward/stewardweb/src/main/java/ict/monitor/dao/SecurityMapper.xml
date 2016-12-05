@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ict.monitor.dao.SecurityDao">
+	           
+    <select id="findUserNameByToken" resultType="String">
+			SELECT username FROM security WHERE token=#{token}
+	</select>
+	
+	<delete id="delToken" parameterType="String">
+		delete from security where token=#{token}
+	</delete>
+	
+	<insert id="insert" parameterType="ict.monitor.bean.Security">  
+        insert into security(username,token) values(#{username},#{token})  
+    </insert>  
+</mapper>
